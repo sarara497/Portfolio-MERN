@@ -3,23 +3,19 @@ import React from 'react'
 
 import Header from './Components/Header/Header'
 import About from './Components/About/About'
+import Skills from './Components/Skills/Skills'
 
-class App extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-    }
-  }
+const App = () => {
 
 
-  render(){
-    return(
+  return (
       <div className="App">
         <Header/>
         <About/>
+        <Skills/>
       </div>
     )
   }
-}
+
 
 export default App;

@@ -38,6 +38,8 @@ h1{
 .w3-animate-left {
     position: relative;
     animation: animateleft 2s !important;
+    animation-iteration-count:1 !important;
+    
 }
 
 #about__content{
