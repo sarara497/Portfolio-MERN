@@ -2,8 +2,8 @@
 import './App.css';
 import React from 'react'
 
-
-import { Switch, Route, Redirect } from 'react-router-dom';
+import Header from './Components/Header/Header'
+import About from './Components/About/About'
 
 class App extends React.Component {
   constructor() {
@@ -16,7 +16,8 @@ class App extends React.Component {
   render(){
     return(
       <div className="App">
-        <p>Hello Front</p>
+        <Header/>
+        <About/>
       </div>
     )
   }
