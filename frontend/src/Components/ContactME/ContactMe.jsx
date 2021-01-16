@@ -9,6 +9,9 @@ import EmailIcon from '@material-ui/icons/Email';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import "./contactme.css";
 
+const handleEmailMe = () => {
+  window.open("mailto:sara19972020@outlook.com")
+}
 const ContactMe = () => {
   return (
     <div className="contact">
@@ -28,9 +31,8 @@ const ContactMe = () => {
       
   
       <a  href="https://www.facebook.com/sara.ayed.9237" target="_blank"> <FacebookIcon/> </a> 
-      
-  
-      <a  href="sara19972020@outlook.com" target="_blank"> <EmailIcon/> </a>
+    
+      <a className="sidebar__item sidebar__email" onClick={handleEmailMe}> <EmailIcon/> </a>
       
       </div>
       </Flip>
