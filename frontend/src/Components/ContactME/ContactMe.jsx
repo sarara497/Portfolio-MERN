@@ -40,7 +40,6 @@ const ContactMe = () => {
       <Slide bottom>
       <a  href="." > <ExpandLessIcon/> </a> 
       </Slide>
-      
     </div>
     
   );
