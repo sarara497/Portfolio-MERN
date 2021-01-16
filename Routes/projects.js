@@ -10,6 +10,7 @@ router.post("/addProject", async (req, res) => {
   const Project = new Projects({
     pname: req.body.pname,
     description: req.body.description,
+    technology:req.body.technology,
     imageUrl: req.body.imageUrl,
     githup_link: req.body.githup_link,
   });

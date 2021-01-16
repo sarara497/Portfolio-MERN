@@ -9,6 +9,10 @@ const Projects = mongoose.Schema({
       type: String,
       required: true
     },
+    technology: {
+        type: String,
+        required: true
+      },
     imageUrl: {
         type: String
       },
