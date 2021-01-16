@@ -1,30 +1,43 @@
 
 * {box-sizing: border-box}
+
 .skills{
     background-color: #576d82;
     color: #fff;
-    height: 350px;
-    border-top: 0;
-    padding-bottom: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    height: 600px;
+}
+
+.theContainer{
+     display:flex ;
+  flex-direction:row;
+   width:100% ;
+    justify-content:center;
 }
 
 
 h1{
-    margin-bottom: 60px;
-    margin-top: 120px;
+    margin-bottom: 70px;
+    margin-top: 100px;
     font-size: -webkit-xxx-large;
 }
 
-#forSkils{
+h4{
+    margin-bottom: 6px;
+    margin-right: auto;
+}
+
+h5{margin-top: -25px;
+margin-bottom: 9px;
+margin-left: auto;}
+
+.forSkils{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width:100% ;
+    flex-direction: column;
+    width:30%;
+    height: 30px;
+   height: 13px;
 }
 
 .container {
@@ -34,12 +47,57 @@ h1{
 
 .skill{
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 10px;
     color: white;
   }
+
+
 .js{
-    background-color: rgb(16, 35, 77);
-    width:80%;
-      
+    background-color:#203353;
+    width:95%;    
 }
+.hC{
+    background-color:#203353;
+    width:90%;    
+}
+.react{
+    background-color:#203353;
+    width:80%;    
+}
+.exp{
+    background-color:#203353;
+    width:80%;    
+}
+.opp{
+    background-color:#203353;
+    width:70%;    
+}
+.mo{
+    background-color:#203353;
+    width:85%;    
+}
+.str{
+    background-color:#203353;
+    width:75%;    
+}
+
+.m{
+    background-color:#203353;
+    width:90%;    
+}
+
+@media only screen and (max-width: 738px) {
+    h1{
+        font-size: medium;
+    }
+    .skills{
+        height: 1000px;
+        clip-path:none;
+    }
+    .theContainer {
+      flex-direction: column;
+    }
+    .skill{
+        margin-left: 0;
+    }
+  }
