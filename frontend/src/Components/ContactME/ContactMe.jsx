@@ -30,7 +30,7 @@ const ContactMe = () => {
       <a  href="https://www.facebook.com/sara.ayed.9237" target="_blank"> <FacebookIcon/> </a> 
       
   
-      <a  href="sara19972020@outlook.com"> <EmailIcon/> </a>
+      <a  href="sara19972020@outlook.com" target="_blank"> <EmailIcon/> </a>
       
       </div>
       </Flip>

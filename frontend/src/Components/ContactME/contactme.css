@@ -24,3 +24,17 @@
 .MuiSvgIcon-root:hover{
     color: #203353;
 }
+
+@media only screen and (max-width: 738px) {
+  .contact{
+      height: 500px;
+      clip-path:none;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .MuiSvgIcon-root{
+    width: 1em !important;
+    height: 1em !important;
+  }
+}
