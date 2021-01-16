@@ -25,13 +25,8 @@ const ContactMe = () => {
       <div className="forLinks">
   
       <a  href="https://github.com/sarara497" target="_blank"><GitHubIcon/> </a> 
-      
-  
       <a  href="https://www.linkedin.com/in/sara-alayed4197/" target="_blank"> <LinkedInIcon/> </a>
-      
-  
       <a  href="https://www.facebook.com/sara.ayed.9237" target="_blank"> <FacebookIcon/> </a> 
-    
       <a className="sidebar__item sidebar__email" onClick={handleEmailMe}> <EmailIcon/> </a>
       
       </div>
