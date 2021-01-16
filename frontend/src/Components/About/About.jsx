@@ -30,7 +30,7 @@ const About = () => {
             <a
               href="https://drive.google.com/file/d/1P2-85_zExS8jDG1qEBj4Jt8r7FpNY-rg/view?usp=sharing"
               target="_blank"
-              className="btn"
+              className="btnn"
             >
               My Resume
             </a>
