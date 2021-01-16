@@ -1,0 +1,11 @@
+.project{
+    background-color: #203353;
+    color: #fff;
+    height: 500px;
+    border-top: 0;
+    padding-bottom: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

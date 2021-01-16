@@ -4,7 +4,7 @@ import bg from '../../Photos/bg-h.jpg'
 
 const Header = () => {
     return(
-        <div className='header'>
+        <div id='Home' className='header'>
            <img className='header__pic' src={bg}  alt='bg'/>
             <div class="animated-title">
                 <div class="text-top">
