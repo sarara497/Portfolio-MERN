@@ -5,14 +5,13 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd frontend && npm run build",
-    "install-frontend": "cd frontend && npm install",
-    "heroku-postbuild": "npm run install-frontend && npm run build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "backend": "nodemon server.js",
+    "heroku-postbuild" : "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarara497/Portfolio-MERN.git"
+    "url": "git+https:/github.com/sarara497/Portfolio-MERN.git"
   },
   "author": "",
   "license": "ISC",
