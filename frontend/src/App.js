@@ -4,7 +4,7 @@ import React from 'react'
 import Header from './Components/Header/Header'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
-import Projects from './Components/Projects/ProjectsCard'
+import Projects from './Components/Projects/Projects'
 import ContactMe from './Components/ContactME/ContactMe'
 
 const App = () => {

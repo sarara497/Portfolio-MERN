@@ -5,27 +5,25 @@ import { GoMarkGithub } from "react-icons/go";
 import './projects.css'
 
 
-const Projects = () => {
+const ProjectsCard = ({pname, description, technology , imageUrl , githup_link}) => {
+    console.log('github' , githup_link)
     return (
-        <div className='project'>
-            <Flip top>
-                <h1  style={{ marginBottom: '60px' , fontWeight:'500' }}> My Projects </h1>
-                </Flip>
+       
                 <Flip top>
             <div id="container">	
               <div class="product-details">
-                  <h1 style={{fontSize:'50px'}}>Sharkona</h1>
-                  <p class="information">"Help Real-Estate office and normal people who need to rent or sale any type of RealEstate to communicate easier with each other and also to find what they need easier. "</p>
+                  <h1 style={{fontSize:'50px'}}>{pname}</h1>
+                  <p class="information">{description}</p>
                   <div class="control">
                       <button class="btn">
                           <span class="price">view</span>
-                          <span class="shopping-cart"><a target="_blank" href='https://github.com/sarara497/Inventory-Management' class="fa fa-shopping-cart" aria-hidden="true"><GoMarkGithub  style={{color:'white'}}/></a></span>
+                          <span class="shopping-cart"><a  href={githup_link}  target="_blank" class="fa fa-shopping-cart" aria-hidden="true"><GoMarkGithub  style={{color:'white'}}/></a></span>
                           <span class="buy">GitHub</span>
                       </button>
                  </div>
              </div>
              <div class="product-image">
-                 <img src="https://i.imgur.com/q4w1Zu0.png" alt="proPic"/>
+                 <img src={imageUrl} alt="proPic"/>
                  <div class="info">
                      <h2 style={{fontFamily:'Farsan , cursive' , fontSize:'40px'}}>The Technologies</h2>
                      <ul style={{listStyle:'none' , marginTop:'35px' , fontSize:'25px'}}>
@@ -40,9 +38,8 @@ const Projects = () => {
              </div>
           </div>
           </Flip>
-       </div>
         
     )
 }
 
-export default Projects
+export default ProjectsCard
