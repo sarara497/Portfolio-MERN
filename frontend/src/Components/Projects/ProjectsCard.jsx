@@ -1,5 +1,6 @@
 import React from 'react'
 import Flip from 'react-reveal/Flip';
+import Slide from 'react-reveal/Slide';
 import { GoMarkGithub } from "react-icons/go";
 
 import './projects.css'
@@ -9,8 +10,9 @@ const ProjectsCard = ({pname, description, technology , imageUrl , githup_link})
     console.log('github' , githup_link)
     return (
        
-                <Flip top>
-            <div id="container">	
+        <Slide left>     
+            <div id="container">
+                
               <div class="product-details">
                   <h1 style={{fontSize:'50px'}}>{pname}</h1>
                   <p class="information">{description}</p>
@@ -22,6 +24,8 @@ const ProjectsCard = ({pname, description, technology , imageUrl , githup_link})
                       </button>
                  </div>
              </div>
+             	
+            
              <div class="product-image">
                  <img src={imageUrl} alt="proPic"/>
                  <div class="info">
@@ -36,8 +40,10 @@ const ProjectsCard = ({pname, description, technology , imageUrl , githup_link})
                      </ul>
                  </div> 
              </div>
+            
           </div>
-          </Flip>
+          </Slide>
+          
         
     )
 }
