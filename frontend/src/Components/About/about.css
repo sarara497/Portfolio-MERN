@@ -48,7 +48,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Roboto';
+   
 }
 
 .about__disc{
@@ -82,15 +82,59 @@ h1{
     
 }
 
-@media only screen and (max-width: 738px) {
-    .about{
-        height: 700px;
-        clip-path:none;
+ 
+  /* Media Queries: Tabled Portrait */
+  @media screen and (max-width: 768px ) {
+    .about { width:100%; height: fit-content; }
+    .about__cointainer{
+        flex-direction: column;
     }
-    .about__cointainer {
-      flex-direction: column;
+    .about__disc{
+        font-size:large;
+        font-weight: 500;
     }
-    .about__content{
-        margin-left: 0;
+    #about__pic{
+        height: 300px;
+        width: 300px;
+      
     }
+    #border{height: 294px;
+        width: 300px;
+        margin-bottom: 46px;
+      
+    }
+    #about__content{
+        margin-left: 30px;
+        width: 80%;
+      
+    
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .about { width:100%; height: fit-content; }
+    .about__cointainer{
+        flex-direction: column;
+    }
+    .about__disc{
+        font-size:small;
+        font-weight: 1000;
+    }
+    #about__pic{
+        height: 200px;
+        width: 200px;
+      
+    }
+    #border{height: 206px;
+        width: 206px;
+        margin-bottom: 46px;
+      
+    }
+    #about__content{
+        margin-left: 30px;
+        width: 80%;
+      
+    
+    }
+   
   }

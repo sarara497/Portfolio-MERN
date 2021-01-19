@@ -72,3 +72,50 @@
   transform: translate(0, -100%);
 
 }
+
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1024px) {
+  .header{ width:100%; }
+  .animated-title  { width:44%; left: 25%; }
+  .animated-title > div div span {
+    font-size:xxx-large}
+  
+  .animated-title > div.text-bottom div {
+    font-size: xxx-large;
+  }  
+ 
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .header { width:100%; }
+  .animated-title  { width:39%; left: 25%; }
+  .animated-title > div div span {
+    font-size:xx-large}
+  
+  .animated-title > div.text-bottom div {
+    font-size: xx-large;
+  } 
+}
+
+@media screen and (max-width: 414px) {
+  .header { width:100%; }
+  .animated-title  { width:62%; left: 37%; }
+  .animated-title > div div span {
+    font-size:x-large}
+  
+  .animated-title > div.text-bottom div {
+    font-size: x-large;
+  } 
+}
+
+
+
+
+
+
+
+
+
