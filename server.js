@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())
 
-app.use('/Projects' , require('./routes/Projects'))
+app.use('/projects' , require('./Routes/projects'))
 
 
 if(process.env.NODE_ENV === 'production'){ 
