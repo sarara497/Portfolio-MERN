@@ -22,7 +22,7 @@ class Projects extends Component {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' },
       };
-      fetch('http://localhost:4000/projects/retrieveProjects', requestOptions)
+      fetch('https://portfolio-saraayed.herokuapp.com/projects/retrieveProjects', requestOptions)
         .then(response => response.json())
         .then(data => {
           this.setState({ AllProjects : data })
