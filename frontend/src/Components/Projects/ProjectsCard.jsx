@@ -13,22 +13,22 @@ const ProjectsCard = ({pname, description, technology , imageUrl , githup_link})
         <Slide left>     
             <div id="container">
                 
-              <div class="project-details">
+              <div className="project-details">
                   <h1 id='headerC' style={{fontSize:'50px'}}>{pname}</h1>
-                  <p class="information">{description}</p>
-                  <div class="control">
-                      <button class="btn">
-                          <span class="view">view</span>
-                          <span class="GHlogo"><a  href={githup_link}  target="_blank" class="fa fa-GHlogo" aria-hidden="true"><GoMarkGithub  style={{color:'white'}}/></a></span>
-                          <span class="GH">GitHub</span>
+                  <p className="information">{description}</p>
+                  <div className="control">
+                      <button className="btn">
+                          <span className="view">view</span>
+                          <span className="GHlogo"><a  href={githup_link}  target="blank" className="fa fa-GHlogo" aria-hidden="true"><GoMarkGithub  style={{color:'white'}}/></a></span>
+                          <span className="GH">GitHub</span>
                       </button>
                  </div>
              </div>
              	
             
-             <div class="product-image">
+             <div className="product-image">
                  <img src={imageUrl} alt="proPic"/>
-                 <div class="info">
+                 <div className="info">
                      <h2 id='headerInfo' style={{ fontSize:'40px'}}>The Technologies</h2>
                      <ul id='informationInfo' style={{listStyle:'none' , marginTop:'35px' , fontSize:'25px'}}>
                          <li><strong>Express/Nodejs</strong></li>

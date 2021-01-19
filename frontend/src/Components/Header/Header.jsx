@@ -6,14 +6,14 @@ const Header = () => {
     return(
         <div id='Home' className='header'>
            <img className='header__pic' src={bg}  alt='bg'/>
-            <div class="animated-title">
-                <div class="text-top">
+            <div className="animated-title">
+                <div className="text-top">
                     <div>
                          <span>Hello !</span>
                          <span>I'm Sara Boshnaq</span>
                     </div>
                 </div>
-                <div class="text-bottom">
+                <div className="text-bottom">
                     <div >Full Stack Developer</div>
                 </div>
             </div>
