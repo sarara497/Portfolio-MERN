@@ -16,7 +16,7 @@ const ContactMe = () => {
   return (
     <div className="contact">
       <Zoom top>
-        <h1 style={{ marginBottom: "60px", fontWeight: "500" }}>
+        <h1 id='contacthead' style={{ marginBottom: "60px", fontWeight: "500" }}>
           Contact Me
         </h1>
       </Zoom>

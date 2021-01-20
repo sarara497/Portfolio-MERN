@@ -83,7 +83,8 @@ h1{
 }
 
  
-  /* Media Queries: Tabled Portrait */
+
+
   @media screen and (max-width: 768px ) {
     .about { width:100%; height: fit-content; }
     .about__cointainer{
