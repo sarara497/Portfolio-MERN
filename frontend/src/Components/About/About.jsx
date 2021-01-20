@@ -6,7 +6,7 @@ import profilepic from "../../Photos/Profilephoto.jpg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div id='About' className="about">
       <Slide left>
         <h1 style={{ marginBottom: "60px" }}> About Me </h1>
       </Slide>

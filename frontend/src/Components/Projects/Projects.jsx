@@ -36,7 +36,7 @@ class Projects extends Component {
       console.log("Projects" ,  AllProjects)
   
       return (
-        <div className='project'>
+        <div  id='MyProjects' className='project'>
             <Flip top>
             <h1  style={{ marginBottom: '60px' , fontWeight:'500' }}> My Projects </h1>
             </Flip>

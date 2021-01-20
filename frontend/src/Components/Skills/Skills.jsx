@@ -5,7 +5,7 @@ import Flip from 'react-reveal/Flip';
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id='MySkills' className="skills">
       <Flip top>
       <h1>Technical Skills</h1>
       </Flip>

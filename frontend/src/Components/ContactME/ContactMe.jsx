@@ -14,7 +14,7 @@ const handleEmailMe = () => {
 }
 const ContactMe = () => {
   return (
-    <div className="contact">
+    <div id='MyContacts' className="contact">
       <Zoom top>
         <h1 id='contacthead' style={{ marginBottom: "60px", fontWeight: "500" }}>
           Contact Me
@@ -33,7 +33,7 @@ const ContactMe = () => {
       </Flip>
       <br/><br/><br/><br/>
       <Slide bottom>
-      <a  href="." > <ExpandLessIcon/> </a> 
+      <a  href="#Home" > <ExpandLessIcon/> </a> 
       </Slide>
     </div>
     
