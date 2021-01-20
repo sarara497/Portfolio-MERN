@@ -16,10 +16,16 @@ const ContactMe = () => {
   return (
     <div id='MyContacts' className="contact">
       <Zoom top>
-        <h1 id='contacthead' style={{ marginBottom: "60px", fontWeight: "500" }}>
+        <h1 id='contacthead' style={{ marginBottom: "40px", fontWeight: "500" }}>
           Contact Me
         </h1>
       </Zoom>
+      <Zoom top>
+        <h6 id='contacthead' style={{ marginBottom: "10px", fontWeight: "500" }}>
+           Email : sara19972020@outlook.com<br/>Tel : +970594385840
+        </h6>
+      </Zoom>
+
       <br/><br/><br/>
       <Flip right>
       <div className="forLinks">
@@ -27,7 +33,7 @@ const ContactMe = () => {
       <a  href="https://github.com/sarara497" target="blank"><GitHubIcon/> </a> 
       <a  href="https://www.linkedin.com/in/sara-alayed4197/" target="blank"> <LinkedInIcon/> </a>
       <a  href="https://www.facebook.com/sara.ayed.9237" target="blank"> <FacebookIcon/> </a> 
-      <a href="." className="sidebar__item sidebar__email" onClick={handleEmailMe}> <EmailIcon/> </a>
+      <a className="sidebar__item sidebar__email" onClick={handleEmailMe}> <EmailIcon/> </a>
       
       </div>
       </Flip>
