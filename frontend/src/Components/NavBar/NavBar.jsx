@@ -2,10 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
 
 
 import './navbar.css'
@@ -29,21 +26,14 @@ export default function NavBar() {
     const classes = useStyles();
 
     return (
-        <div id="nav" >
-            <AppBar position="static">
+        <div>
+            <AppBar style={{alignItems:"center" , backgroundColor:'#203353'}} >
                 <Toolbar>
-
-                  
-
-                    <div id="forNav">
-                        <Button  href='/' id="forbtnH" color="inherit">Home&nbsp;</Button>
-                        <Button href="#About" id="forbtnH" color="inherit">About Me&nbsp;</Button>
-                        <Button href="#MySkills" id="forbtnH" color="inherit">Skills&nbsp;</Button>
-                        <Button href="#MyProjects" id="forbtnH" color="inherit">Projects&nbsp;</Button>
-                        <Button  href="#MyContacts" id="forbtnH" color="inherit">Contact Me&nbsp;</Button>
-
-                    </div>
-                   
+                        <Button  href='/' id="forbtnH" style={{textAlign:"center" , borderRadius:'20px' , marginLeft:'60px' , fontSize:'19px'}}color="inherit">Home&nbsp;</Button>
+                        <Button href="#About" id="forbtnH" style={{textAlign:"center" , borderRadius:'20px' , marginLeft:'20px' , fontSize:'19px'}} color="inherit">About Me&nbsp;</Button>
+                        <Button href="#MySkills" id="forbtnH" style={{textAlign:"center" , borderRadius:'20px' , marginLeft:'20px' , fontSize:'19px'}} color="inherit">Skills&nbsp;</Button>
+                        <Button href="#MyProjects" id="forbtnH" style={{textAlign:"center" , borderRadius:'20px' , marginLeft:'20px' , fontSize:'19px'}} color="inherit">Projects&nbsp;</Button>
+                        <Button  href="#MyContacts" id="forbtnH"  style={{textAlign:"center" , borderRadius:'20px' , marginLeft:'20px' , fontSize:'19px'}}color="inherit">Contact Me&nbsp;</Button>
                 </Toolbar>
             </AppBar>
         </div>
