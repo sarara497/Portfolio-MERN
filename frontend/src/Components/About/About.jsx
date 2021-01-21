@@ -28,7 +28,7 @@ const About = () => {
               employ my scientific knowledge in the job market.
             </h4>
             <a
-              href="https://drive.google.com/file/d/1P2-85_zExS8jDG1qEBj4Jt8r7FpNY-rg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1diJ0uztPASPCCzPwTzoOuGnQTf8dtAIu/view?usp=sharing"
               target="blank"
               className="btnn"
             >
