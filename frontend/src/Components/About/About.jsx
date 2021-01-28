@@ -6,7 +6,7 @@ import profilepic from "../../Photos/Profilephoto.jpg";
 
 const About = () => {
   return (
-    <div id='About' className="about">
+    <div id="About" className="about">
       <Slide left>
         <h1 style={{ marginBottom: "60px" }}> About Me </h1>
       </Slide>
@@ -28,7 +28,7 @@ const About = () => {
               employ my scientific knowledge in the job market.
             </h4>
             <a
-              href="https://drive.google.com/file/d/1jRvpfnkO7AREz4KMDhYohHvKLnwsM_19/view?usp=sharing"
+              href="https://drive.google.com/file/d/1RDQGJKM6_C9_WN8hP_tsmlWz8FDhGwVP/view?usp=sharing"
               target="blank"
               className="btnn"
             >
