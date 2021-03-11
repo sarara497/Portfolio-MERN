@@ -17,7 +17,7 @@ const Header = () => {
           </div>
         </div>
         <div className="text-bottom">
-          <div>FrontEnd Developer</div>
+          <div>Front End Developer</div>
         </div>
       </div>
     </div>
