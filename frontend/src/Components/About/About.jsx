@@ -21,9 +21,9 @@ const About = () => {
           <div id="about__content">
             <h4 className="about__disc">
               A graduate of Applied Computing, I enrolled in this Specialty with
-              desire and love in computers , and Full-Stack developer who is
-              passionate about programming and figuring out everything related
-              to new technologies and very good at critical-thinking and problem
+              desire and love in computers , and I am passionate about
+              programming and figuring out everything related to new
+              technologies and very good at critical-thinking and problem
               solving, I am looking for a job to increase my experience and
               employ my scientific knowledge in the job market.
             </h4>
