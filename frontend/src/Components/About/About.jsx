@@ -20,7 +20,7 @@ const About = () => {
         <Slide right>
           <div id="about__content">
             <h4 className="about__disc">
-              A graduate of Applied Computing, I joined in this specialty with
+              A graduate of Applied Computing, I enrolled in this program with
               desire and love in computers , and Full-Stack developer who is
               passionate about programming and figuring out everything related
               to new technologies and very good at critical-thinking and problem
@@ -28,7 +28,7 @@ const About = () => {
               employ my scientific knowledge in the job market.
             </h4>
             <a
-              href="https://drive.google.com/file/d/1yRR60k_wGZqW7NNczRRuoeSWQGt3fmBy/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qubA5XSu9HOyXOEgaOus5CbDct1I2jOU/view?usp=sharing"
               target="blank"
               className="btnn"
             >
